@@ -19,3 +19,4 @@
 - [SQL queries](https://github.com/chrysippa/data-engineering-basics/blob/main/basic_sql.sql)
 - [SQL joins, views, transactions, and stored procedures](https://github.com/chrysippa/data-engineering-basics/blob/main/sql_views_transactions.sql)
 - Bash scripts to [create a file](https://github.com/chrysippa/data-engineering-basics/blob/main/shell/createfile.sh) and [extract and store CSV data](https://github.com/chrysippa/data-engineering-basics/blob/main/shell/get_license_data.sh)
+- [Importing and cleaning salary data with pandas](https://github.com/chrysippa/data-engineering-basics/blob/main/data_cleaning/salary_survey.ipynb)
