@@ -8,10 +8,11 @@ This version of the data was pulled from the source on November 3, 2023, and so 
 
 Version 1.0.0 (11-03-2023)
 ## New
-    - Added column "Total compensation" which sums Annual salary and Additional monetary compensation
+- Added column "Total compensation" which sums Annual salary and Additional monetary compensation
 
 ## Changes 
 Data removals:
+
     - Deleted empty rows at end of dataset
     - Deleted 3 rows with nonsensical job titles ("8325305674", "x", "[Project role]")
     - Deleted where salary = 0 (1 row)
@@ -19,6 +20,7 @@ Data removals:
     - Deleted where no accurate country could be determined (6 rows)
 
 Edits:
+
     - Trimmed whitespace from Job title, Country, State, City columns
     - Various typos fixed in City, State, Country columns
     - Swapped salary and Additional Monetary Compensation where salary was 0 but substantial Additional compensation was present (2 rows)
@@ -28,10 +30,11 @@ Edits:
     - Edited City on a case-by-case basis where a nonstandard value was listed. Where urban complexes were mentioned, altered to the major city of that complex. 
 
 Inserts:
+
     - Manually entered state where Country = United States, State was blank, and state could be inferred from City column (32 rows). Removed state from City column if present for these rows.
 
 ## Fixes
-    - None at this time (no functionality present)
+- None at this time (no functionality present)
 
 # TODO
 Edit cities D+
